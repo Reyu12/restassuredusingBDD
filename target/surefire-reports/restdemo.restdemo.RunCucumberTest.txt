@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: restdemo.restdemo.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.415 sec <<< FAILURE!
+validate the respose when i send req with future date in rates API(Testing the rest assured response for rates API)  Time elapsed: 0.086 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "send the request with future date" is undefined. You can implement it using the snippet(s) below:
+
+@Given("send the request with future date")
+public void send_the_request_with_future_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("get the response for given request")
+public void get_the_response_for_given_request() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("check that response matches with current date")
+public void check_that_response_matches_with_current_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

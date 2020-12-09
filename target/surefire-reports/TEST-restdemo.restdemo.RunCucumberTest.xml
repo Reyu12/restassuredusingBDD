@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="restdemo.restdemo.RunCucumberTest" time="6.168" errors="1" skipped="0">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="Snehal_Mali"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin"/>
+    <property name="classworlds.conf" value="C:\Users\Snehal_Mali\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15472823769387001020.tmp"/>
+    <property name="jdk.extensions.version" value="13.0.2.0"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9"/>
+    <property name="java.vm.info" value="JRE 13 Windows 10 amd64-64-Bit Compressed References 20200117_154 (JIT enabled, AOT enabled)
+OpenJ9   - 6968c18d7
+OMR      - 7a1b0239a
+JCL      - 9c5a41bd5f based on jdk-13.0.2+8"/>
+    <property name="os.version" value="10.0"/>
+    <property name="jdk.boot.class.path.append" value=""/>
+    <property name="sun.nio.MaxDirectMemorySize" value="3728392192"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.18.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.nio.PageAlignDirectMemory" value="false"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\Snehal_Mali"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin;C:\windows\system32;C:\windows;C:/Program Files/AdoptOpenJDK/jdk-13.0.2.8-openj9/bin/j9vm;C:/Program Files/AdoptOpenJDK/jdk-13.0.2.8-openj9/bin;C:\Program Files\AdoptOpenJDK\jdk-13.0.2.8-openj9\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-11-jre\bin\;C:\Users\Snehal_Mali\AppData\Local\Microsoft\WindowsApps;;C:\Users\Snehal_Mali\eclipse\eclipse-jee-2020-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="13.0.2+8
+JRE 13 Windows 10 amd64-64-Bit Compressed References 20200117_154 (JIT enabled, AOT enabled)
+OpenJ9   - 6968c18d7
+OMR      - 7a1b0239a
+JCL      - 9c5a41bd5f based on jdk-13.0.2+8"/>
+    <property name="maven.home" value="C:\Users\Snehal_Mali\eclipse-workspace\restdemo\EMBEDDED"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.class.path" value="C:\Users\Snehal_Mali\eclipse\eclipse-jee-2020-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\Snehal_Mali\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Snehal_Mali\eclipse-workspace\restdemo"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="user.dir" value="C:\Users\Snehal_Mali\eclipse-workspace\restdemo"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+  </properties>
+  <testcase classname="Testing the rest assured response for rates API" name="Check the positive response for given rates API" time="4.182"/>
+  <testcase classname="Testing the rest assured response for rates API" name="An automated test suite should run which will assert the response" time="0.773"/>
+  <testcase classname="Testing the rest assured response for rates API" name="for incorrect url assert the response supplied by the call" time="0.375"/>
+  <testcase classname="Testing the rest assured response for rates API" name="check the positive response for Rates API for Specific date Foreign Exchange rates" time="0.373"/>
+  <testcase classname="Testing the rest assured response for rates API" name="Assert the response for a perticular date of exchange rates API" time="0.379"/>
+  <testcase classname="Testing the rest assured response for rates API" name="validate the respose when i send req with future date in rates API" time="0.086">
+    <error message="The step &quot;send the request with future date&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;send the request with future date&quot;)
+public void send_the_request_with_future_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;get the response for given request&quot;)
+public void get_the_response_for_given_request() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;check that response matches with current date&quot;)
+public void check_that_response_matches_with_current_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;send the request with future date&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;send the request with future date&quot;)
+public void send_the_request_with_future_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;get the response for given request&quot;)
+public void get_the_response_for_given_request() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;check that response matches with current date&quot;)
+public void check_that_response_matches_with_current_date() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+  </testcase>
+</testsuite>
